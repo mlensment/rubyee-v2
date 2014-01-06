@@ -11,7 +11,6 @@
 # Page options, layouts, aliases and proxies
 ###
 
-
 # Per-page layout changes:
 #
 # With no layout
@@ -45,6 +44,8 @@
 #     "Helping"
 #   end
 # end
+
+activate :directory_indexes
 
 set :css_dir, 'stylesheets'
 
